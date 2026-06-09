@@ -9,14 +9,14 @@ import SmoothScroll from "./SmoothScroll";
 
 type Brand = "digital" | "design";
 
-const CONTACT_EMAIL = "ssdigital22@gmail.com";
+const CONTACT_EMAIL = "ssdigiagency@gmail.com";
 
 const structuredData = {
   "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "Organization",
-      "@id": "https://ssagency.in/#organization",
+      "@id": "https://ss-digital-designs.vercel.app/#organization",
       name: "SS Digital",
       alternateName: ["SS Designs", "SS Agency"],
       email: CONTACT_EMAIL,
@@ -27,10 +27,10 @@ const structuredData = {
         addressCountry: "IN",
       },
       founder: {
-        "@id": "https://ssagency.in/#lakshya-acharya",
+        "@id": "https://ss-digital-designs.vercel.app/#lakshya-acharya",
       },
       employee: {
-        "@id": "https://ssagency.in/#lakshya-acharya",
+        "@id": "https://ss-digital-designs.vercel.app/#lakshya-acharya",
       },
       makesOffer: [
         { "@type": "Offer", itemOffered: { "@type": "Service", name: "Web Development" } },
@@ -42,20 +42,20 @@ const structuredData = {
     },
     {
       "@type": "Person",
-      "@id": "https://ssagency.in/#lakshya-acharya",
+      "@id": "https://ss-digital-designs.vercel.app/#lakshya-acharya",
       name: "Lakshya Acharya",
       jobTitle: "Founder and CEO",
       worksFor: {
-        "@id": "https://ssagency.in/#organization",
+        "@id": "https://ss-digital-designs.vercel.app/#organization",
       },
     },
     {
       "@type": "WebSite",
-      "@id": "https://ssagency.in/#website",
-      name: "SS Digital",
+      "@id": "https://ss-digital-designs.vercel.app/#website",
+      name: "SS Digital",  
       alternateName: "SS Designs",
       publisher: {
-        "@id": "https://ssagency.in/#organization",
+        "@id": "https://ss-digital-designs.vercel.app/#organization",
       },
     },
   ],
@@ -95,7 +95,7 @@ const brandContent = {
       "Meta Ads",
       "Google Ads",
       "Analytics",
-      "Landing Pages",
+      "Landing Pages",   
       "Lead Funnels",
     ],
     projects: ["E-Commerce Platform", "Business Website", "Mobile App"],
@@ -194,8 +194,8 @@ const testimonials = [
     review: "Outstanding website and marketing support.",
   },
   {
-    name: "Priya Mehta",
-    company: "Mehta Fashion",
+    name: "Mahak Bhansali",
+    company: "Baked By Millie",
     review: "Amazing graphic designs and quick delivery.",
   },
   {
